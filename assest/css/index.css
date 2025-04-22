@@ -1,0 +1,45 @@
+.general{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.img{
+    background-image: url(https://media.istockphoto.com/id/1435605327/photo/cybersecurity-concept-global-network-security-technology-business-people-protect-personal.jpg?s=1024x1024&w=is&k=20&c=PeXmi-Ik3W-q89sjm8NU2lzLqVZOfYNDtSEFd570l6g=);
+    width: 100%;
+    height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+filter: blur(15px);
+transition: filter 0.3s ease;
+
+}
+.write h1{
+    font-size: 20px;
+}
+.write{
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    left: 530px;
+  gap: 20px;
+    color: black;
+    font-size: 30px;
+    
+   
+}
+.write input{
+    width: 80%;
+    height: 40px;
+}
+.write button{
+    background-color: aqua;
+    width: 20%;
+    height: 40px;
+}
